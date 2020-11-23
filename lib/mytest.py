@@ -68,8 +68,8 @@ class Mytest(unittest.TestCase):
         print(img_path)
         # cls.dr.snapshot(filename=img_path)
         self.take_screenshot(self, file_path=img_path)
-        img_path = img_path[img_path.index("/report"):]  # 截取图片路径后面部分，用来拼接成相对路径
-        img_path = '..{}'.format(img_path)
+        img_path = img_path[img_path.index("/web_UItest"):]  # 截取图片路径后面部分，用来拼接成相对路径
+        img_path ='http://localhost:63342'+ '{}'.format(img_path)
         print("<img src='" + img_path + "' width=600 />")  # 把图片发送到 BR 报告里，BR 的特性
 
     def take_screenshot(self, file_path):
