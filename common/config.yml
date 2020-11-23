@@ -1,11 +1,3 @@
-# 数据库
-DATABASE:
-  host: 103.227.122.146
-  port: 6302
-  user: hq_db
-  password: QDa,.@tl5Q.F
-  database: hq_study_test
-
 
 # 邮件信息
 MAIL:
