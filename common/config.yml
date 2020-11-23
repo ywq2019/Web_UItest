@@ -9,11 +9,11 @@ DATABASE:
 
 # 邮件信息
 MAIL:
-  sender: yangwenqi@hqwx.com
-  receivers: yangwenqi@hqwx.com
+  sender: xxxxx@xxx.com
+  receivers: xxxxx@xxx.com
   mail_host: smtphm.qiye.163.com
-  mail_pass: Hqwx2019
-  subject: 【小程序UI自动化测试报告】
-  content:  UI自动化测试已完成，报告详情内容请查看附件    UI测试范围：  1、小程序-环球网校在线课堂（主流程页面覆盖率60%） 2、小程序-环球网校官方课程（主流程页面覆盖率75%）
+  mail_pass: xxxxxxx
+  subject: 【web端ui自动化测试报告】
+  content:  UI自动化测试已完成，报告详情内容请查看附件    UI测试范围：  xxxxxxxxxxx
 
 
