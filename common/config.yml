@@ -1,0 +1,19 @@
+# 数据库
+DATABASE:
+  host: 103.227.122.146
+  port: 6302
+  user: hq_db
+  password: QDa,.@tl5Q.F
+  database: hq_study_test
+
+
+# 邮件信息
+MAIL:
+  sender: yangwenqi@hqwx.com
+  receivers: yangwenqi@hqwx.com
+  mail_host: smtphm.qiye.163.com
+  mail_pass: Hqwx2019
+  subject: 【小程序UI自动化测试报告】
+  content:  UI自动化测试已完成，报告详情内容请查看附件    UI测试范围：  1、小程序-环球网校在线课堂（主流程页面覆盖率60%） 2、小程序-环球网校官方课程（主流程页面覆盖率75%）
+
+
