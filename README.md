@@ -27,7 +27,6 @@
 * 直接运行 run.py 执行所有用例
 * 报告、截图、日志生成在 ./report 目录下
 * 用例成功的截图保存在 ./report/image 目录下，将截图嵌入到BR测试报告中整合起来
-* 所以目前是在 runner.py 里面手动切换处理
 * 执行，运行run.py脚本，可以使用命令框：python run.py或者直接执行pycharm工具的执行操作按钮
 
 #### 怎么写 case
