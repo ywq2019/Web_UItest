@@ -17,6 +17,10 @@ from config import globalparam
 logger = logging.getLogger("airtest")
 logger.setLevel(logging.ERROR)
 
+if not os.path.isdir(globalparam.img_path):
+    os.makedirs(globalparam.img_path)
+if not os.path.isdir(globalparam.test_images_path):
+    os.makedirs(globalparam.test_images_path)
 
 def run_case():
     """
