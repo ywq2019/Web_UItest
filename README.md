@@ -20,7 +20,7 @@
 * config 文件下存储整个工具的全局变量，如日志、报告、截图、浏览器驱动等路径
 * data 存放Excel表或txt文件等需要读取的测试数据
 * lib 自定义公用函数、方法
-* 在 ./lib/basepage.py basepage object思想，用于定义页面基本类
+* 在 ./lib/basepage.py basepage object思想，用于定义页面基本类，这里只编写页面元素功能，目的是让页面元素和页面功能分开，页面数据和代码分开（实现数据驱动）
 * 在./lib/datainfo.py 将表或者文本字段解析成dict（字典）、list（列表），方便数据读取
 * 在./lib/mytest.py 基类：整个用例执行前的操作以及公共的方法
 * 在./lib/readconfig.py config文件中.ini格式文件内容读取
