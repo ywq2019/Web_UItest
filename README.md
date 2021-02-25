@@ -38,5 +38,5 @@
 
 
 > 注：airtest-selenium的用法请查看官方文档：
-* https://airtest.doc.io.netease.com/tutorial/13_Selenium/（官方文档）
-* https://github.com/AirtestProject/airtest-selenium/tree/master/airtest_selenium（airtest-selenium源码）
+* 官方文档：https://airtest.doc.io.netease.com/tutorial/13_Selenium/
+* airtest-selenium源码：https://github.com/AirtestProject/airtest-selenium/tree/master/airtest_selenium
